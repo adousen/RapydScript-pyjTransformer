@@ -11,6 +11,7 @@ pyjTransformer for RapydScript
 2. Run RapydScript with external framework, such as jQuery, AngularJS, ReactJS and so on.
 
 > **NOTE:** To run rapydscript in browser right with AngularJS(ensure that rapydscript compiles an executes before it), you should set attributes ``async="false"`` in the ``<script>`` tag. 
+
 > To run it right with ReactJS, you should also set attributes ``async="false"`` in the ``<script>`` tag, and set ``otype="text/jsx"`` . 
 
 Example:
@@ -58,6 +59,7 @@ Rapydscript is a pre-compiler for JavaScript, similar to CoffeeScript, but with 
 2. 可以与jQuery、AngularJS、ReactJS等外部框架共同工作。
 
 > **注意:** 要使RapydScript在浏览器中与AngularJS正确地工作（即保证rapydscript代码的编译和运行在AngularJS之前），你需要在 ``<script>`` 中添加属性 ``async="false"`` 。
+
 > 要使RapydScript与ReactJS正常工作，你需要在 ``<script>`` 中添加属性 ``async="false"`` ，以及添加属性 ``otype="text/jsx"`` 。
 
 示例:
