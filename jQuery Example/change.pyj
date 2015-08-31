@@ -1,0 +1,19 @@
+def makeDivThatTurnsGreen():
+    div = $('<div></div>').text('Press on it to see the change of color')
+
+    turnGreen = def(event):
+        div.css('background', 'green')
+
+    div.mousedown(turnGreen)
+
+    resetColor = def(event):
+        div.css('background', '')
+
+    div.mouseup(resetColor)
+
+    return div
+
+$(document).ready( 
+    def(): 
+        $("#display").append(makeDivThatTurnsGreen());
+); 

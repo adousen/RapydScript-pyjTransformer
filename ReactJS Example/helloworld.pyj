@@ -1,0 +1,20 @@
+HelloWorld = React.createClass({
+    render: def():
+        return JS("""(
+        <div className="">
+            <h2 className="">
+                helloworld!
+            </h2>
+        </div>
+        )""")  
+})
+
+###########################################################
+# React render
+###########################################################
+React.render(
+    JS("""
+    <HelloWorld/>,
+    document.getElementById('content')
+    """)
+)

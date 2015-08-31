@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script type="text/javascript" src="static/rapydscript/0.3.6/rapydscript.js"></script>
+    
+<!--<script type="text/pyj" async="false">-->
+<script type="text/pyj">
+def makeDivThatTurnsGreen():
+    div = $('<div></div>').text('Press on it to see the change of color')
+
+    turnGreen = def(event):
+        div.css('background', 'green')
+
+    div.mousedown(turnGreen)
+
+    resetColor = def(event):
+        div.css('background', '')
+
+    div.mouseup(resetColor)
+
+    return div
+
+$(document).ready( 
+    def(): 
+        $("#display").append(makeDivThatTurnsGreen());
+); 
+</script>
+    
+</head>
+<body>
+    <div id="display"></div>
+</body>
+    <script type="text/javascript" src="static/rapydscript/pyjTransformer.js"></script>
+    <script type='text/javascript' src='http://ajax.useso.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=3.4.2'></script>
+</html>
