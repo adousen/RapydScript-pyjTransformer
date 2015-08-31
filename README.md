@@ -1,4 +1,4 @@
-pyjTransformer for RapydScript in-browser  
+pyjTransformer for RapydScript
 ==============================================
 
 # Doc
