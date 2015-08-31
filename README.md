@@ -54,7 +54,7 @@ Rapydscript is a pre-compiler for JavaScript, similar to CoffeeScript, but with 
 
 ## 实现的功能:
 
-1. 自动将浏览器中的.pyj文件或页面上的的RapydScript代码编译成javascript代码。
+1. 自动将浏览器中的.pyj文件或页面上的RapydScript代码编译成javascript代码。
 2. 可以与jQuery、AngularJS、ReactJS等外部框架共同工作。
 
 > **注意:** 要使RapydScript在浏览器中与AngularJS正确地工作（即保证rapydscript代码的编译和运行在AngularJS之前），你需要在 ``<script>`` 中添加属性 ``async="false"`` 。
