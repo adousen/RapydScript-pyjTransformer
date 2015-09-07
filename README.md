@@ -10,7 +10,7 @@ pyjTransformer for RapydScript
 1. Auto compiles .pyj files or rapydscript code on page to javascript in browser.
 2. Run RapydScript with external framework, such as jQuery, AngularJS, ReactJS and so on.
 
-> **NOTE:** To run rapydscript in browser right with AngularJS(ensure that rapydscript compiles an executes before it), you should set attributes ``async="false"`` in the ``<script>`` tag. 
+> **NOTE:** To run rapydscript in browser rightly with AngularJS(ensure that rapydscript compiles an executes before it), you should set attributes ``async="false"`` in the ``<script>`` tag. 
 
 > To run it right with ReactJS, you should also set attributes ``async="false"`` in the ``<script>`` tag, and set ``otype="text/jsx"`` . 
 
